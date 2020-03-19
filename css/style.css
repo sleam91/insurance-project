@@ -7,22 +7,23 @@ letters gray: (224, 224, 224)
 gray bottom: (119, 116, 116)*/
 
 a {
-    color:rgba(0, 0, 0, 0.719);
-    text-decoration: none; 
-  }
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+a.home{
+    color: black;
+}
+
 h1 {
-    
     margin: 0;
     font-size: 2.5rem;
 }
 
-
-
 h2 {
-    
     color: white;
     margin: 0;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 h3 {
@@ -31,48 +32,52 @@ h3 {
     font-size: larger;
 }
 
-.family h1{
+.family h1 {
     margin: 0;
     margin-left: 10%;
 }
 
-.family p{
+.family p {
+    margin: 1%;
     margin-left: 10%;
 }
 
-.family button{
+.family button {
     margin-left: 10%;
 }
-.family :nth-child(3){
+
+.family :nth-child(3) {
     margin-top: 1vw;
 }
 
-
-
-
 .biggertext {
     margin: 0;
-    font-size: large;
+    font-size: x-large;
+    position: relative;
+    top: 20%;
 }
 
 .smalltext {
     font-size: small;
 }
 
-white{
+white {
     color: white;
 }
 
-button{
-    border-radius: 50%;
+button {
+    box-shadow: 0px 4px 4px -2px rgba(196,196,196,1);
+    border: none;
+    border-radius: 20%/50%;
     font-size: 1rem;
     font-weight: 600;
-    padding: 3%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     margin-top: 20%;
 }
-p{
+
+p {
     color: rgba(0, 0, 0, 0.719);
 }
 
@@ -81,7 +86,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     max-width: 1920px;
-    font-family: Georgia;
+    font-family: 'Arial Narrow Bold';
     font-weight: bold;
     background-color: rgb(234, 234, 234);
 }
@@ -149,35 +154,31 @@ nav {
     justify-content: space-between;
 }
 
-.leftside{
-    
+.leftside {
     min-width: 35%;
-    
 }
-.leftside h1{
+
+.leftside h1 {
     color: white;
 }
 
-.rightside{
+.rightside {
     margin-left: 15vw;
     margin-bottom: -15vw;
 }
 
-
-
 .generations {
     position: relative;
-
-
     bottom: 40%;
     display: flex;
     justify-content: center;
 }
 
-.generations div~h3{
+.generations div~h3 {
     padding-top: 8%;
 }
-.generations div~p{
+
+.generations div~p {
     padding: 5%;
     text-align: center;
 }
@@ -187,13 +188,13 @@ nav {
     position: relative;
     max-height: 50vh;
     min-height: 50vh;
-    min-width: 18vw;
-    max-width: 18vw;  
+    min-width: 30%;
+    max-width: 30%w;
     margin: 2%;
     padding: 2%;
-
 }
-.generations>div>div{
+
+.generations>div>div {
     border-radius: 2%;
     position: relative;
     max-height: 53%;
@@ -202,33 +203,26 @@ nav {
     min-width: 105%;
     margin-left: -2%;
     margin-top: -25%;
- 
 }
+
 .orangebox {
- 
-    padding:10%;
-    
-    
+    padding: 10%;
     background-color: rgb(249, 177, 49);
     grid-area: 2/1/3/2;
 }
 
-.aboutus{
+.aboutus {
     margin-left: 25%;
     margin-right: 25%;
-    margin-top:-25%;
-    
-   
-    
+    margin-top: -25%;
 }
 
-.aboutus h1{
+.aboutus h1 {
     color: white;
     text-align: center;
 }
 
 .children {
-    
     background-color: white;
 }
 
@@ -246,7 +240,6 @@ nav {
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(198, 221, 233);
-    
 }
 
 .adult {
@@ -270,17 +263,20 @@ nav {
     grid-template: 1fr 1fr/1fr 1fr 1fr;
 }
 
-.howitworks>div{
-    padding: 7vw;
+.howitworks>div {
+    padding: 2vw;
+    padding-bottom: 15vw;
 }
-.howitworks div h1{
+
+.howitworks .box0 h1 {
+    position: relative;
+    top: 25%;
     text-align: center;
     color: rgba(0, 0, 0, 0.719);
 }
 
-.howitworks div p{
+.howitworks div p {
     text-align: center;
-    
 }
 
 .box0 {
@@ -292,6 +288,20 @@ nav {
 .box1 {
     grid-column: 2/3;
     grid-row: 1/2;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.number{
+    align-self: flex-start;
+    color: rgba(0, 0, 0, 0.473);
+    
+    
 }
 
 .box2 {
