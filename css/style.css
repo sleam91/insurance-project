@@ -11,7 +11,11 @@ a {
     text-decoration: none;
 }
 
-a.home{
+a.home {
+    color: black;
+}
+
+a.contact {
     color: black;
 }
 
@@ -65,8 +69,8 @@ white {
     color: white;
 }
 
-button {
-    box-shadow: 0px 4px 4px -2px rgba(196,196,196,1);
+button.joinnow {
+    box-shadow: 0px 4px 4px -2px rgba(196, 196, 196, 1);
     border: none;
     border-radius: 20%/50%;
     font-size: 1rem;
@@ -296,14 +300,11 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
-.number{
+.number {
     align-self: flex-start;
     color: rgba(0, 0, 0, 0.473);
-    
-    
 }
 
 .box2 {
@@ -351,4 +352,102 @@ nav {
 .bottom {
     background-color: rgb(119, 116, 116);
     height: 50vh;
+}
+
+.banner {
+    grid-area: 1/1/2/3;
+    padding: 5%;
+    height: 60vh;
+    text-align: center;
+    background-color: rgb(198, 221, 233);
+    background-image: url("/img/man-and-baby.svg");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom right 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 4rem;
+}
+
+.sendmessage {
+    padding: 10%;
+    background-color: rgb(168, 161, 158);
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+.whatsonyourmind {
+    min-width: 35%;
+}
+
+.whatsonyourmind h1 {
+    font-size: 3.5rem;
+}
+
+.inputmessage {
+    margin-left: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button.sendmessagebutton {
+    box-shadow: 0px 4px 4px -2px rgba(196, 196, 196, 1);
+    border: none;
+    border-radius: 20%/50%;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+
+input {
+    width: 25vw;
+    height: 15%;
+}
+
+textarea#message {
+    width: 25vw;
+    height: 30vh;
+    resize: none;
+}
+
+.map {
+    min-height: 65vh;
+    min-width: 35vw;
+    background-size: 100%;
+    background-image: url(/img/map.png);
+    background-repeat: no-repeat;
+}
+
+.visitus {
+    position: relative;
+    left: 5%;
+    top: 3vw;
+    padding: 2%;
+    padding-bottom: 10%;
+    color: white;
+    max-height: 20%;
+    max-width: 25%;
+    background-color: rgb(249, 177, 49);
+}
+
+.visitus p {
+    color: white;
+}
+
+.marker {
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+    width: 10%;
+    height: 10%;
 }
