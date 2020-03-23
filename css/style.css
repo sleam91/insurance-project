@@ -447,10 +447,3 @@ textarea#message {
     color: white;
 }
 
-.marker {
-    position: relative;
-    left: 50%;
-    bottom: 150px;
-    width: 10%;
-    height: 10%;
-}
