@@ -115,7 +115,7 @@ header {
     padding: 10%;
     padding-bottom: 30%;
     background-color: rgb(198, 221, 233);
-    background-image: url("/img/family.png");
+    background-image: url("../img/family.png");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -243,7 +243,7 @@ nav {
 }
 
 .child {
-    background-image: url("/img/child.png");
+    background-image: url("../img/child.png");
     background-size: 8rem;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -251,7 +251,7 @@ nav {
 }
 
 .adult {
-    background-image: url("/img/adult.png");
+    background-image: url("../img/adult.png");
     background-size: 9rem;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -259,7 +259,7 @@ nav {
 }
 
 .senior {
-    background-image: url("/img/old.png");
+    background-image: url("../img/old.png");
     background-size: 12rem;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -363,7 +363,7 @@ nav {
     min-height: 250px;
     text-align: center;
     background-color: rgb(198, 221, 233);
-    background-image: url("/img/man-and-baby.svg");
+    background-image: url("../img/man-and-baby.svg");
     background-size: 17%;
     background-repeat: no-repeat;
     background-position: bottom right 15%;
@@ -426,7 +426,7 @@ textarea#message {
 .map {
     min-height: 469px;
     background-size: cover;
-    background-image: url(/img/map.png);
+    background-image: url(../img/map.png);
     background-repeat: no-repeat;
 }
 
